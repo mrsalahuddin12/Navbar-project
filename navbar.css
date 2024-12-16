@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://media.gettyimages.com/id/1477537568/video/salesman-with-customer-at-the-outdoor-dealership-walking-and-talking-while-showing-him.jpg?s=640x640&k=20&c=cgvAYyMB6JpvZ8rfhywQ9LxcbiZgUfwRmr2n6i-Tgug=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+   
+   
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color :none;
+    text-decoration-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+.navbar .menu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.navbar .menu li {
+    font-size: 14px;
+}
+.navbar .menu li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+.navbar .menu li a:hover {
+    color: #e63946;
+}
+.navbar .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar .language, .navbar .profile {
+    display: flex;
+    align-items: center;
+}
+.navbar .language select {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+.navbar .profile img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search {
+    margin-top: 20px;
+    text-align: center;
+}
+.search input, .search select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+}
+.search button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.search button:hover {
+    background-color: #d62839;
+}
